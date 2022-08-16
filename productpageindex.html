@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="stylesheet" href="/productpagestyles.css">
+</head>
+<body>
+    <!-- header_hero combines header and hero and both divs share the same gradient background -->
+    <div class="header_hero">
+
+        <!-- Header starts. Consists of a logo and a nav -->
+        <header id="header">
+            <div id="header-div">
+
+                <div class="logo_container">
+                    <div id="header_img">
+                        <img class="logo" src="https://cdn.shopify.com/s/files/1/0377/4469/files/Connock-London_200x.jpg?v=1604588269">
+                    </div>
+                </div>
+
+                <div id="nav-bar">
+                    <ul>
+                        <li class="nav-link"><a href="/productpageindex.html">HOME</a></li>
+                        <li class="nav-link"> <a href="#form-div">OFFERS</a></li>
+                        <li class="nav-link"> <a href="#video-div">NEW FRAGRANCE</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </header> 
+        <!-- Header ends -->
+
+
+        <!-- Hero starts -->
+        <div class="hero">
+            <div class="intro">
+                <div class="intro_text">
+                    <h1>Ignite your home aroma</Hi></h1>
+                    <p>Connock London is an award-winning British fragrance and skincare brand founded by Amanda Connock who has a rich heritage in sourcing and supplying speciality ingredients to the Perfumery and Cosmetics industry.</p>
+                </div>
+            </div>
+            <div class="intro_photo">
+                <img class="product-hero-img" src="https://cdn.shopify.com/s/files/1/0377/4469/products/17_1024x1024.png?v=1636477884" alt="Connock products">
+            </div>
+        </div>
+        <!-- Hero ends -->
+
+    </div>
+    <!-- header_hero ends -->
+
+    <div id="main">
+
+        <!-- Video div starts -->
+        <div id="video-div">
+            <h2>Introducing new fragrance</h2>
+            <div class="video_container">
+                <iframe id="video" src="https://www.youtube.com/embed/YVTNmVcsp6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+        </div>
+        <!-- Video div ends -->
+
+        <!-- Form starts -->
+        <div id="form-div" class="form-div">
+            <div class="form">   
+                <h2 id="form-title">Sign up to our newsletter today to receive our latest offers!</h2>
+                <form id="form" action="">
+
+                    <div class="content-div">
+                        <label id="name-label" for="name"> <h4>Full name:</h4><input id="name" type="text" name="name" placeholder="Enter your name"> </label>
+                    </div>
+                    <br>
+                    <div class="content-div">
+                        <label id="email-label" for="email"> <h4>Email address:</h4><input id="email" type="email" name="email" placeholder="Enter your email address"> </label>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="content-div">
+                        <form action="https://www.freecodecamp.com/email-submit">
+                            <input class = "btn" type="submit" name="submit"></input>
+                        </form>
+                    </div>
+                    <br>
+                </form>
+            </div>
+            
+        </div>
+        
+        <!-- Form ends -->
+    </div>
